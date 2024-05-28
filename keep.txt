@@ -1,6 +1,13 @@
 
 ```shell
 
+# build module 
+make 
+
+# build image 
 docker build -t my-redis-image .
+
+# run image
+docker run --rm --net=host -it my-redis-image
 
 ```
