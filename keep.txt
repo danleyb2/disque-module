@@ -1,0 +1,6 @@
+
+```shell
+
+docker build -t my-redis-image .
+
+```
